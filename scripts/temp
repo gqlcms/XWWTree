@@ -1,0 +1,14 @@
+10031077
+
+python runEDBR2PKUTree.py --dataset QCD_HT1500to2000_APV --jobs 0
+
+python runEDBR2PKUTree.py --dataset gKK_2500_250 --jobs 0 --outputfile /eos/user/q/qiguo/yunxuan/ROOTFILE/Tree/UL2016/V1/gKK_2500_250/gKK_2500_250.root --inputfile /eos/user/y/yusong/qilong/NTuple_Output/17/all/Res1ToRes2GluToGluVV_M1-2500_R-250.root
+
+python runEDBR2PKUTree.py --dataset ST_tW_top --jobs 0 --outputfile /eos/user/q/qiguo/yunxuan/ROOTFILE/Tree/UL2016/V1/ST_tW_top_legacy/ST_tW_top.root --inputfile /eos/user/y/yusong/qilong/NTuple_Output/17/all/ST_tW_top.root --year 2017
+
+cp /eos/user/q/qiguo/yunxuan/ROOTFILE/Tree/UL2016/V1/ST_tW_top_legacy/ST_tW_top.root /eos/user/q/qiguo/temp/delete/ST_tW_top_legacy.root
+
+
+python runEDBR2PKUTree.py --dataset ST_tW_top --jobs 0 --outputfile /eos/user/q/qiguo/yunxuan/ROOTFILE/Tree/UL2016/V1/ST_tW_top_legacy/ST_tW_top.root --inputfile /eos/user/q/qiguo/yunxuan/ROOTFILE/NTuple_Output/Merge/2016UL/V1/ST_tW_top/ST_tW_top.root --year 2017
+
+cp /eos/user/q/qiguo/yunxuan/ROOTFILE/Tree/UL2016/V1/ST_tW_top_legacy/ST_tW_top.root /eos/user/q/qiguo/temp/delete/ST_tW_top.root
